@@ -1,1 +1,34 @@
+.container {
+  display: flex;
+  /* background-color: rgba(0, 255, 255, 0.555); */
+}
 
+button {
+  display: block;
+}
+
+.getmoregold {
+  color: red;
+  font-size: 1rem;
+  display: none;
+}
+
+h1 {
+  visibility: hidden;
+  background-color: #ffffff00;
+}
+
+p {
+  visibility: hidden;
+}
+
+.right {
+  background-color: blanchedalmond;
+}
+.right p {
+  visibility: visible;
+}
+
+h2 {
+  visibility: hidden;
+}
