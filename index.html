@@ -4,62 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curtis Thomas</title>
-    <link id="theme" rel="stylesheet" type="text/css" href="style.css" />
+    <title>Curtis Thomas - Front End Developer</title>
+
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="resume.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <main>
-      <div class="container">
-        <div class="left">
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <p>CT</p>
+        </div>
+        <nav>
+          <ol class="links">
+            <li>
+              <a href="#about-me"
+                ><span style="color: #48b9a5">1.</span>About Me</a
+              >
+            </li>
+            <li>
+              <a href="#experience"
+                ><span style="color: #48b9a5">2.</span>Experience</a
+              >
+            </li>
+            <li>
+              <a href="#projects"
+                ><span style="color: #48b9a5">3.</span>Projects</a
+              >
+            </li>
+            <li>
+              <a href="#contact"
+                ><span style="color: #48b9a5">4.</span>Contact</a
+              >
+            </li>
+          </ol>
+
+          <div class="resumebutton">
+            <a href="#">Resume</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="spacer1"></div>
+
+      <div class="jumbotron">
+        <div class="heading">
           <p>Hi, my name is</p>
-          <h1>Curtis Thomas</h1>
-          <p>I'm going to be a Front-End Developer.</p>
-          <h2>
-            By day I build websites using WordPress, HTML and CSS. By night I
-            learn to use JavaScript.
+          <h1>Curtis Thomas.</h1>
+          <p>I'm a Front-End Developer.</p>
+        </div>
+        <div class="textbox">
+          <p>I build websites using HTML, CSS, and Javascript.</p>
+        </div>
+
+        <div class="jumbotronbutton">
+          <a href="#">Get in Touch</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="spacer2"></div>
+
+      <section>
+        <div class="infoboxes">
+          <h2 id="about-me">
+            <span style="color: #48b9a5"> 1.</span> About Me
           </h2>
+          <p>
+            Hello! My name is Curtis and I enjoy bringing website ideas to life.
+            My first exposure in the world of
+            <span style="color: #48b9a5"> Web Development</span> was back in
+            2018. When I began building basic
+            <span style="color: #48b9a5"> WordPress</span> sites for friends.
+          </p>
+          <p>
+            After becoming proficient with WordPress I wanted to know more. So I
+            took an online course to learn
+            <span style="color: #48b9a5"> HTML and CSS</span> . With this solid
+            foundational knowledge in my toolbelt I began to create!
+          </p>
+          <p>
+            The next step in my journey was to learn
+            <span style="color: #48b9a5"> JavaScript</span> and I decided to
+            learn vanilla and then move onto current frameworks.
+          </p>
         </div>
-        <div class="right">
-          <button class="reset">Reset All</button>
-          <p>Gold Ammount</p>
-          <p class="gold">0</p>
-          <h3 class="getmoregold">GET MORE GOLD HERE</h3>
-          <button class="goldbutton">Press For Gold</button>
-          <button class="miner1">Buy a Gold Miner - 1 gold -</button>
-          <button class="goldbutton1">Press For ALL the Gold</button>
-          <h2>Formatting Shop</h2>
-          <p>Preset = FREE</p>
-          <button class="preset1">Preset 1</button>
-          <button class="preset2">Preset 2</button>
-          <button class="preset3">Preset 3</button>
-          <p>Background Shop - 1 Gold</p>
-          <button class="backgroundBlue">Blue</button>
-          <button class="backgroundGreen">Green</button>
-          <button class="backgroundRed">Red</button>
-          <p>H1 Shop - 1 Gold -</p>
-          <button class="h1show">show</button>
-          <p>Highlight toggle</p>
-          <button class="h1heighlight">on</button>
-          <button class="h1heighlightoff">off</button>
-          <button class="h1rem">1Rem</button>
-          <button class="h12rem">2Rem -</button>
-          <button class="h13rem">3Rem -</button>
-          <p>P shop - 1 Gold</p>
-          <button class="pshow">Show</button>
-          <button class="p1rem">1Rem</button>
-          <button class="p2rem">2Rem</button>
-          <button class="p3rem">3Rem</button>
-          <p>h2 Shop - 1 gold</p>
-          <button class="h2show">Show</button>
-          <button class="h21rem">1Rem</button>
-          <button class="h22rem">2Rem</button>
-          <button class="h23rem">3Rem</button>
+        <div class="infoboxes">
+          <h2 id="experience">
+            <span style="color: #48b9a5"> 2.</span> My Exprience
+          </h2>
+          <p>
+            For over 5 years I have had an intrest in websites. Watching
+            tutorials about how to set up hosting, installing Wordpress, and
+            then generating traffic through SEO. After becoming proficient with
+            Wordpress and Elementor, I wanted to go deeper. Thats when I began
+            to learn HTML, CSS, and Javascript. All leading to the goal of
+            becoming a Front-End Developer.
+          </p>
         </div>
+        <div class="infoboxes">
+          <h2 id="projects">
+            <span style="color: #48b9a5"> 3.</span> Projects
+          </h2>
+          <p>
+            A picture paints a thousand words, so check out what I have been
+            working on recently.
+          </p>
+        </div>
+      </section>
+
+      <div class="contact_container">
+        <div class="want_to_know_more">
+          <h2 id="contact"><span style="color: #48b9a5"> 4.</span> Contact</h2>
+          <p></p>
+        </div>
+        <form action="#" class="w_form"></form>
       </div>
     </main>
     <footer></footer>
-
-    <script src="style.js"></script>
   </body>
 </html>
