@@ -1,212 +1,246 @@
 html {
-    padding-left: 20%;
-    padding-right: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #0A192F;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 1.5px;
-    line-height: 1.5;
+  background-color: #666656;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
 }
 
-body h1,h2,h3,h4 {
-    font-family: 'Lato', sans-serif;
+body h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    color: #CCD6F6;
-    font-size: 6rem;
-    margin-bottom: 15px;
-    font-weight: 700;
+  color: #a7a498;
+  font-size: 6rem;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
 p {
-    color: #76819E;
+  color: #000000;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    letter-spacing: 1.5px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1.5px;
+  align-items: center;
 }
 
 .logo {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .logo p {
-    color: #CCD6F6;
-    border: solid 1px #8892B0;
-    text-decoration: none;
-    padding: 15px;
-    font-weight: 600;
-    border-radius: 200px;
+  color: #000000;
+  border: solid 1px #000000;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 200px;
 }
-
-
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
-
-
 .links {
-    display: flex;
+  display: flex;
 }
 
 .links a {
-    color: #CCD6F6;
-    text-decoration: none;
-    padding-right: 10px;
+  color: #000000;
+  text-decoration: none;
+  padding-right: 10px;
 }
 
 .resumebutton a {
-    color: #48B9A5;
-    border: solid 1px #48B9A5;
-    text-decoration: none;
-    padding: 7px;
-    font-weight: 600;
-    margin-left: 10px;
-    border-radius: 2px;
+  color: #000000;
+  border: solid 1px #000000;
+  text-decoration: none;
+  padding: 7px;
+  font-weight: 600;
+  margin-left: 10px;
+  border-radius: 2px;
 }
 
 .jumbotronbutton a {
-    color: #0A192F ;
-    background-color: #48B9A5;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 700;
-    border-radius: 2px;
-    font-size: 1.3rem;
+  color: #000000;
+  background-color: #63625e00;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-size: 1.3rem;
+  border: solid 1px #000000;
 }
 
-
-
 .heading p {
-    color: #48B9A5;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .heading p:first-of-type {
-    font-size: rem;
-    font-weight: 700;
+  font-size: rem;
+  font-weight: 700;
 }
 
 .heading p:last-of-type {
-    font-size: 5rem;
-    margin-bottom: 20px;
-    color: #8892B0;
-    font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: #000000;
+  font-weight: 700;
 }
-
-
 
 .textbox p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-
-
 .spacer1 {
-    min-height:200px;
+  min-height: 200px;
 }
 
 .spacer2 {
-    min-height:400px;
+  min-height: 400px;
 }
 
 .button_contact {
-    border: solid 1px#48B9A5;
-   
+  border: solid 1px#000000;
 }
 
 .textbox {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .textbox p {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .button-contact_container a {
-    text-decoration: none;
-    color: #48B9A5;
-    padding: 15px;
-   
+  text-decoration: none;
+  color: #000000;
+  padding: 15px;
 }
 
 h2 {
-    color: #CCD6F6;
-    font-size: 1.5rem;
+  color: #000000;
+  font-size: 1.5rem;
 }
 
 .infoboxes h2 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .infoboxes p {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
-.infoboxes img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid 1px #48B9A5;
-    filter: opacity(0.5) drop-shadow(0 0 0 rgb(17, 219, 255)); 
+.project_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #424239;
+  box-shadow: inset 0 0 10px #3b3b33;
+
+  border: solid 1px black;
 }
 
+.projectbox {
+  width: 30%;
+  text-align: center;
+  border: solid 1px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #5e5e4f;
+  box-shadow: 0 0 10px #3b3b33;
+}
+
+.projectbox img {
+  width: 100%;
+  opacity: 75%;
+}
+
+.projectbox p {
+  height: 100px;
+}
+
+.projectbox a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.projectbox:hover {
+  background-color: #4e4e43;
+  box-shadow: inset 0 0 10px #424239;
+}
+
+.projectbox:hover img {
+  opacity: 100%;
+}
+.projectbox:hover p {
+  color: rgb(255, 255, 255);
+}
+.projectbox:hover a {
+  color: rgb(255, 255, 255);
+}
+
+form {
+  padding-top: 50px;
+}
 
 @media only screen and (max-width: 600px) {
-    html {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-    .links {
-        display: none;
-    }
+  html {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .links {
+    display: none;
+  }
 
-    .spacer1 {
-        min-height:100px;
-    }
+  .spacer1 {
+    min-height: 100px;
+  }
 
-    h1 {
-        font-size: 2.5rem;
+  h1 {
+    font-size: 2.5rem;
+  }
+  .heading p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
 
-    }
-    .heading p {
-        
-        font-size: 1rem;
-        margin-bottom: 0px;
-    }
-    
-    .heading p:first-of-type {
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin-bottom: 20px;
-    }
-    
-    .heading p:last-of-type {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        color: #8892B0;
-        font-weight: 700;
-    }
+  .heading p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
 
-    .textbox p {
-        max-width: 70%;
-    }
+  .heading p:last-of-type {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+  }
 
-    .spacer2 {
-        min-height:250px;
-    }
+  .textbox p {
+    max-width: 70%;
+  }
 
+  .spacer2 {
+    min-height: 250px;
+  }
 }
